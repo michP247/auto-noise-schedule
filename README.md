@@ -4,9 +4,9 @@ If a 'v_prediction' model is detected, the "Noise Schedule for sampling" (intern
 For any other model type (assumed to be Epsilon-prediction or similar), the schedule is set to "Default".
 
 
-Installation:
+### Installation:
 
 
 Clone this repository into your stable-diffusion-webui-forge/extensions/ directory
 
-Restart the Stable Diffusion WebUI Forge.
+Restart Forge.
