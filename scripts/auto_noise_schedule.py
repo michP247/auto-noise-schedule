@@ -76,3 +76,7 @@ if DEBUG_PRINT:
 class AutoNoiseScheduleScript(scripts.Script):
     def title(self):
         return "Automatic Noise Schedule"
+    def show(self, is_img2img):
+        return scripts.AlwaysVisible
+    def ui(self, is_img2img):
+        return None
