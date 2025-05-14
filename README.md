@@ -11,5 +11,8 @@ For any other model type (assumed to be Epsilon-prediction or similar), the sche
 
 2. Restart Forge.
 
-You should see "[AutoNoiseSchedule] Extension loaded." in the terminal
+The extension will be active immediately. There are no UI elements for this extension in the "Scripts" dropdown, as it operates automatically in the background.
+
+### Usage
+Simply load your Stable Diffusion models as usual. The extension will print messages to the console/terminal, indicating the detected model type and any changes made to the noise schedule setting.
 
