@@ -10,3 +10,6 @@ For any other model type (assumed to be Epsilon-prediction or similar), the sche
 Clone this repository into your stable-diffusion-webui-forge/extensions/ directory
 
 Restart Forge.
+
+You should see "[AutoNoiseSchedule] Extension loaded." in the terminal
+
