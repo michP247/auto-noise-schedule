@@ -7,9 +7,9 @@ For any other model type (assumed to be Epsilon-prediction or similar), the sche
 ### Installation:
 
 
-Clone this repository into your stable-diffusion-webui-forge/extensions/ directory
+1. Clone this repository into your stable-diffusion-webui-forge/extensions/ directory
 
-Restart Forge.
+2. Restart Forge.
 
 You should see "[AutoNoiseSchedule] Extension loaded." in the terminal
 
