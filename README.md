@@ -1,7 +1,8 @@
-This extension designed for stable-diffusion-webui-forge automatically adjusts the "Noise Schedule for sampling" setting based on the currently loaded model's prediction type (Epsilon or V-Prediction). 
+This extension designed for stable-diffusion-webui-forge automatically adjusts the "Noise Schedule for sampling" setting based on the currently loaded model's prediction type (Epsilon or V-Prediction). It utilizes Forge's own analysis of the model's properties to determine the prediction type, instead of checking the model's state dict.
 
 If a 'v_prediction' model is detected, the "Noise Schedule for sampling" (internally sd_noise_schedule) is automatically set to "Zero Terminal SNR".
 For any other model type (assumed to be Epsilon-prediction or similar), the schedule is set to "Default".
+
 
 
 ### Installation:
